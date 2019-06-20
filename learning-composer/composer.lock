@@ -1,0 +1,65 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "d63258999d7a814e711f60ee73a18a08",
+    "content-hash": "43523e1f76fa7e3bdfeec3335e9013a2",
+    "packages": [
+        {
+            "name": "izniburak/pdox",
+            "version": "v1.3.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/izniburak/pdox.git",
+                "reference": "8f3f095c934b1a84b360b6912936f267c8904f83"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/izniburak/pdox/zipball/8f3f095c934b1a84b360b6912936f267c8904f83",
+                "reference": "8f3f095c934b1a84b360b6912936f267c8904f83",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pdo": "*",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Buki\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "İzni Burak Demirtaş",
+                    "email": "info@burakdemirtas.org",
+                    "homepage": "http://burakdemirtas.org"
+                }
+            ],
+            "description": "Useful Query Builder, PDO Class for PHP. A simple access to your SQL records.",
+            "homepage": "https://github.com/izniburak/PDOx",
+            "keywords": [
+                "builder",
+                "pdo",
+                "php",
+                "query",
+                "sql"
+            ],
+            "time": "2018-12-23 18:03:46"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
